@@ -39,5 +39,3 @@
 | 29 wdct | 风向度数 | float | 0-360 |
 | 30 gust | 阵风 m/s | float |      |
 
-![image-20200522214250476](/Users/melody618/Library/Application Support/typora-user-images/image-20200522214250476.png)
-
