@@ -36,4 +36,3 @@ mean_squared_error(y_test, y_predict)
 mean_absolute_error(y_test, y_predict)
 r2_score(y_test, y_predict)
 ```
-
