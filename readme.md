@@ -1,5 +1,7 @@
 ## 降雨量预测
 
+目标值：prcp = Amount of precipitation in millimetres (last hour)
+
 ### 1. 评价指标
 
 #### MSE（均方误差）
