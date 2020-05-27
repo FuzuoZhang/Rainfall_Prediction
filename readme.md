@@ -39,3 +39,4 @@
 | 29 wdct | 风向度数 | float | 0-360 |
 | 30 gust | 阵风 m/s | float |      |
 
+Wwg
