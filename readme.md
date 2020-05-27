@@ -2,6 +2,22 @@
 
 目标值：prcp = Amount of precipitation in millimetres (last hour)
 
+### 分类问题
+
+分类参考：https://zhidao.baidu.com/question/555117257.html
+
+无雨(0):0 (毫米/小时) 
+
+小雨(1):(0,1]
+
+中雨(2):(1,4]
+
+大雨(3):(4,无穷大）
+
+
+
+
+
 ### 1. 评价指标
 
 #### MSE（均方误差）
@@ -18,6 +34,10 @@ $RMSE = \sqrt{MSE}$
 
 $R^2 = 1-\frac{\sum(Y_{actual}-Y_{predict})^2}{\sum(Y_{actual}-Y_{mean})^2}$
 
+#### MAE （平均绝对误差）
+
+$MAE(y,\hat{y})=\frac{1}{n_{samples}}\sum_{i=1}^{n_{samples}}\vert y_i-\hat{y}_i\vert$
+
 决定系数通过数据的变化来表征一个拟合的好坏
 
 - 越接近1，表明变量对y的解释能力越强，模型对数据的拟合也较好
@@ -28,6 +48,7 @@ $R^2 = 1-\frac{\sum(Y_{actual}-Y_{predict})^2}{\sum(Y_{actual}-Y_{mean})^2}$
 #### scikit-learn中的各种衡量指标
 
 ```python
+#本次作业采用一下三种衡量指标
 from sklearn.metrics import mean_squared_error #均方误差
 from sklearn.metrics import mean_absolute_error #平方绝对误差
 from sklearn.metrics import r2_score #R square
