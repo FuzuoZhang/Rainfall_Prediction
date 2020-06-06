@@ -68,6 +68,28 @@ urlcolor=black
 \fancyfoot{}   %页脚为空
 \fancyfoot[C]{\thepage}  %页脚中间为页数
 \renewcommand{\headrulewidth}{0pt} %去掉页眉下的横线
+
+% 表格中支持跨行
+\usepackage{multirow}
+
+% 跨页表格
+\usepackage{longtable}
+
+% 固定宽度的表格
+\usepackage{tabularx}
+
+\usepackage{booktabs}
+
+% 表格中的反斜线
+\usepackage{diagbox}
+
+% 确定浮动对象的位置，可以使用 H，强制将浮动对象放到这里（可能效果很差）
+\usepackage{float}
+
+%\usepackage{natbib}
+
+\graphicspath{{figures/}}
+
 %----------------------------------------------------------------------------------------
 %	FONTS
 %----------------------------------------------------------------------------------------
