@@ -102,7 +102,7 @@ def train(train_path, test_path, classifier, balanced, voting):
 
     if classifier == 'ensemble':
         clf1 = LogisticRegression(max_iter=1000)
-        clf2 = SVC()
+        clf2 = SVC(probability=True)
         clf3 = KNeighborsClassifier()
         clf4 = RandomForestClassifier(max_depth = 8)
         clf5 = MLPClassifier(hidden_layer_sizes=(10,5), max_iter=500)
