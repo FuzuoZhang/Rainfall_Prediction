@@ -3,6 +3,8 @@ features_to_remove = ['mdct','wsid','wsnm','elvt','lat','lon','inme','city','pro
 #features_to_remove = ['mdct','wsid','wsnm','elvt','lat','lon','inme','city','prov','date',
 #                       'smax','smin','tmax','tmin','dmax','dmin','hmax','hmin']
 
+n_classifiers = 10
+
 xgb_params =  {'max_depth':8, 
             'learning_rate':0.01,
             'n_estimators':300,
