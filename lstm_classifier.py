@@ -10,6 +10,8 @@ from sklearn.metrics import accuracy_score, classification_report
 from collections import Counter
 from data_process import *
 from config import *
+import argparse
+
 
 def standscale(X_train, X_valid, X_test):
     T = X_train.shape[1]
@@ -28,13 +30,7 @@ def standscale(X_train, X_valid, X_test):
     X_train = X_train.reshape(X_train.shape[0], T, -1)
     X_valid = X_valid.reshape(X_valid.shape[0], T, -1)
     X_test = X_test.reshape(X_test.shape[0], T, -1)
-    '''
-    mean_ = np.mean(X_train, axis=0)
-    std_ = np.std(X_train, axis=0)
-    X_train = (X_train-mean_)/np.tile(std_,(len(X_train),1,1))
-    X_valid = (X_valid-mean_)/np.tile(std_,(len(X_valid),1,1))
-    X_test = (X_test-mean_)/np.tile(std_,(len(X_test),1,1))
-    '''
+
     return X_train, X_valid, X_test
 
 
@@ -102,24 +98,6 @@ def lstm_predict(model, X, y):
     print("正确率：{}".format(accuracy_score(y, y_pre)))
     print("分类结果报告：\n", classification_report(y,y_pre))
     return output
-
-
-def lstm(data):
-    '''
-    X_train, y_train, X_valid, y_valid, X_test, y_test = load_data(path, T)
-    X_train, X_valid, X_test = standscale(X_train, X_valid, X_test)
-    '''
-    X_train, y_train, X_valid, y_valid, X_test, y_test = data
-    model = lstm_train(X_train, y_train, hidden_size=10, num_layers=2)
-
-    print('/**********训练集实验**********/')
-    pre_y = lstm_predict(model, X_train, y_train)
-
-    print('/**********验证集实验**********/')
-    pre_y = lstm_predict(model, X_valid, y_valid)
-
-    print('/**********测试集实验**********/')
-    pre_y = lstm_predict(model, X_test, y_test)
 
 
 def lstm_bagging_train(X_train, y_train, n_classifiers):
@@ -196,7 +174,7 @@ def lstm_bagging(data, n_classifiers):
     
     print('\n/*******验证集实验结果**********/')
     lstm_bagging_test(X_valid, y_valid, models)
-    
+
     print('\n/*******测试集实验结果**********/')
     lstm_bagging_test(X_test, y_test, models)
 
@@ -210,23 +188,10 @@ def easyensemble(data, n_classifiers):
     
     print('\n/*******验证集实验结果**********/')
     lstm_bagging_test(X_valid, y_valid, models)
-    
+
     print('\n/*******测试集实验结果**********/')
     lstm_bagging_test(X_test, y_test, models)
-
-
-def lstm_main():
-    #在每一个气象站数据上分别训练lstm模型，并用验证集、测试集测试模型性能
-    print("\n/*********LSTM分类器**********/\n")
     
-    for i in range(5):
-        print(stations[i].split('.')[0])
-        path = os.path.join('data/', stations_clean[i])
-        X_train, y_train, X_valid, y_valid, X_test, y_test = load_data(path, T, features_to_remove)
-        X_train, X_valid, X_test = standscale(X_train, X_valid, X_test)
-        lstm((X_train, y_train, X_valid, y_valid, X_test, y_test))
-        print('\n\n')
-
 
 def lstm_bagging_main():
     n_classifiers = 5
@@ -235,7 +200,7 @@ def lstm_bagging_main():
     for i in range(5):
         print(stations[i].split('.')[0])
         path = os.path.join('data/', stations_clean[i])
-        X_train, y_train, X_valid, y_valid, X_test, y_test = load_data(path, T, features_to_remove)
+        X_train, y_train, X_valid, y_valid, X_test, y_test = load_data2(path, T, features_to_remove)
         X_train, X_valid, X_test = standscale(X_train, X_valid, X_test)
         data = (X_train, y_train, X_valid, y_valid, X_test, y_test)
         lstm_bagging(data, n_classifiers)
@@ -250,14 +215,31 @@ def easyensemble_main():
     for i in range(5):
         print(stations[i].split('.')[0])
         path = os.path.join('data/', stations_clean[i])
-        X_train, y_train, X_valid, y_valid, X_test, y_test = load_data(path, T, features_to_remove)
+        X_train, y_train, X_valid, y_valid, X_test, y_test = load_data2(path, T, features_to_remove)
         X_train, X_valid, X_test = standscale(X_train, X_valid, X_test)
         data = (X_train, y_train, X_valid, y_valid, X_test, y_test)
         easyensemble(data, n_classifiers)
         print('\n\n')
 
+def main(train_path, test_path):
+    X_train, y_train, X_valid, y_valid = load_data(train_path, T, features_to_remove)
+    test = feature_selection(test_path, features_to_remove)
+    X_test, y_test = datatrans(test, T)
+    y_test = value2class(y_test)
+    X_train, X_valid, X_test = standscale(X_train, X_valid, X_test)
+
+    model = lstm_train(X_train, y_train)
+    lstm_predict(model, X_test, y_test)
+
 
 if __name__ == "__main__":
-    #lstm_main()
     #lstm_bagging_main()
-    easyensemble_main()
+    #easyensemble_main()
+
+    parser = argparse.ArgumentParser(prog='lstm_classifier.py')
+    parser.add_argument('--data_train', type=str, default='./temp/station_374_clean.csv', help='train data file path')
+    parser.add_argument('--data_test', type=str, default='./test/station4.csv', help='test data file path')
+    opt = parser.parse_args()
+    print(opt)
+
+    main(opt.data_train, opt.data_test)

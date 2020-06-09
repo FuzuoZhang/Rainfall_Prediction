@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score, classification_report
 from collections import Counter
 from data_process import *
 from config import *
-
+import argparse
 
 import warnings
 warnings.filterwarnings("ignore")
@@ -24,20 +24,6 @@ def xgboost_classifier_predict(clf, X, y):
     y_pre = clf.predict(X)
     print("正确率：{}".format(accuracy_score(y, y_pre)))
     print("分类结果报告：\n", classification_report(y,y_pre))
-
-
-def xgboost(data, params):
-    X_train, y_train, X_valid, y_valid, X_test, y_test = data
-    xgb_clf = xgboost_classifier_train(params, X_train, y_train)
-    
-    print('\n/*******训练集实验结果**********/')
-    xgboost_classifier_predict(xgb_clf, X_train, y_train)
-    
-    print('\n/*******验证集实验结果**********/')
-    xgboost_classifier_predict(xgb_clf, X_valid, y_valid)
-    
-    print('\n/*******测试集实验结果**********/')
-    xgboost_classifier_predict(xgb_clf, X_test, y_test)
 
 
 def xgb_bagging_train(X_train, y_train, n_classifiers, params):
@@ -68,52 +54,41 @@ def xgb_bagging_test(X_test, y_test, models):
     print("分类结果报告：\n", classification_report(y_test,y_pre))
 
 
-def xgb_bagging(path, params, n_classifiers):
-    X_train, y_train, X_valid, y_valid, X_test, y_test = preprocess_xgboost(path, T)
-    
-    models = xgb_bagging_train(X_train, y_train, n_classifiers, params=params)
-    
-    print('\n/*******训练集实验结果**********/')
-    xgb_bagging_test(X_train, y_train, models)
-    
-    print('\n/*******验证集实验结果**********/')
-    xgb_bagging_test(X_valid, y_valid, models)
-    
-    print('\n/*******测试集实验结果**********/')
-    xgb_bagging_test(X_test, y_test, models)
-    
+def main(train_path, test_path, classifier):
+    X_train, y_train, X_valid, y_valid = preprocess(train_path, T, features_to_remove)
+    if classifier == 'xgboost':
+        model = xgboost_classifier_train(xgb_params, X_train, y_train)
+    if classifier == 'xgboost-bagging':
+        model = xgb_bagging_train(X_train, y_train, n_classifiers, xgb_bagging_params)
 
-def xgboost_main():
-    #在每一个气象站数据上分别训练xgboost模型，并用验证集、测试集测试模型性能
-    print("\n/*********Xgboost分类器**********/\n")
-    print("paramters: \n", xgb_params, "\n")
+    test = feature_selection(test_path, features_to_remove)
+    X_test, y_test = datatrans(test, T)
+    y_test = value2class(y_test)
+    X_test = X_test.reshape(X_test.shape[0], -1)
+
+    sr_X = StandardScaler()
+    sr_X = sr_X.fit(X_test)
+    X_test = sr_X.transform(X_test)
     
-    for i in range(5):
-        print(stations[i].split('.')[0])
-        path = os.path.join('data/', stations_clean[i])
-        data = preprocess_xgboost(path, T, features_to_remove)
-        xgboost(data, xgb_params)
-        print('\n\n')
-
-
-def xgb_bagging_main():
-    #在每一个气象站数据上分别训练bagging-xgboost模型，并用验证集、测试集测试模型性能
-
-    n_classifiers = 10
-    print('\n/*********Xgboost 随机森林**********/')
-    print("paramters: \n", xgb_bagging_params, "\n")
-
-    for i in range(5):
-        print(stations[i].split('.')[0])
-        path = os.path.join('data/', stations_clean[i])
-        data = preprocess_xgboost(path, T, features_to_remove)
-        xgb_bagging(path, xgb_bagging_params, n_classifiers)
-        print('\n\n')
+    if classifier == 'xgboost':
+        xgboost_classifier_predict(model, X_test, y_test)
+    if classifier == 'xgboost-bagging':
+        xgb_bagging_test(X_test, y_test, model)
     
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(prog='xgb_classifier.py')
+    parser.add_argument('--data_train', type=str, default='./temp/station_373_clean.csv', help='train data file path')
+    parser.add_argument('--data_test', type=str, default='./test/station3.csv', help='test data file path')
+    parser.add_argument('--classifier', type=str, default='xgboost-bagging', help='classifier name')
+    opt = parser.parse_args()
+    print(opt)
+
+    main(opt.data_train, opt.data_test, opt.classifier)
+    '''
     xgboost_main()
     #xgb_bagging_main()
+    '''
     
     
 
