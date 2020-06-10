@@ -79,7 +79,7 @@ def main(train_path, test_path, classifier):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(prog='xgb_classifier.py')
     parser.add_argument('--data_train', type=str, default='./temp/station_373_clean.csv', help='train data file path')
-    parser.add_argument('--data_test', type=str, default='./test/station3.csv', help='test data file path')
+    parser.add_argument('--data_test', type=str, default='./testset/station3.csv', help='test data file path')
     parser.add_argument('--classifier', type=str, default='xgboost-bagging', help='classifier name')
     opt = parser.parse_args()
     print(opt)

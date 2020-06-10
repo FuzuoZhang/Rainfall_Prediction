@@ -238,7 +238,7 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(prog='lstm_classifier.py')
     parser.add_argument('--data_train', type=str, default='./temp/station_374_clean.csv', help='train data file path')
-    parser.add_argument('--data_test', type=str, default='./test/station4.csv', help='test data file path')
+    parser.add_argument('--data_test', type=str, default='./testset/station4.csv', help='test data file path')
     opt = parser.parse_args()
     print(opt)
 

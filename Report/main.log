@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.12)  6 JUN 2020 22:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.12)  9 JUN 2020 17:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**e:/Projects/Rainfall_Prediction/Report/main.tex
-(e:/Projects/Rainfall_Prediction/Report/main.tex
+**e:/Projects/Rainfall_Prediction/Report0608/Report0608/main.tex
+(e:/Projects/Rainfall_Prediction/Report0608/Report0608/main.tex
 LaTeX2e <2020-02-02> patch level 1
 L3 programming layer <2020-02-11> (d:/TeXLive/texlive/2019/texmf-dist/tex/latex/ctex/ctexart.cls (d:/TeXLive/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2020-02-11 L3 programming layer (loader) 
@@ -214,7 +214,7 @@ File: ctex-fontset-windowsnew.def 2019/05/29 v2.4.16 Windows fonts definition fo
 File: zhwindowsfonts.tex 2019/05/29 v2.4.16 Windows font map loader for pdfTeX and DVIPDFMx (CTEX)
 {d:/TeXLive/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Unicode.sfd})))) (d:/TeXLive/texlive/2019/texmf-dist/tex/latex/ctex/config/ctex.cfg
 File: ctex.cfg 2019/05/29 v2.4.16 Configuration file (CTEX)
-) (e:/Projects/Rainfall_Prediction/Report/structure.tex (d:/TeXLive/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (e:/Projects/Rainfall_Prediction/Report0608/Report0608/structure.tex (d:/TeXLive/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
 \@mathmargin=\skip54
 
@@ -1370,11 +1370,7 @@ File: UTF8.bdg 2015/04/18 4.8.4
 File: UTF8.enc 2015/04/18 4.8.4
 ) (d:/TeXLive/texlive/2019/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2015/04/18 4.8.4
-) (e:/Projects/Rainfall_Prediction/Report/main.aux
-
-LaTeX Warning: Label `tab:single_model' multiply defined.
-
-)
+) (e:/Projects/Rainfall_Prediction/Report0608/Report0608/main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -1507,7 +1503,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 24.
 LaTeX Info: Redefining \pageref on input line 24.
 LaTeX Info: Redefining \nameref on input line 24.
- (e:/Projects/Rainfall_Prediction/Report/main.out) (e:/Projects/Rainfall_Prediction/Report/main.out)
+ (e:/Projects/Rainfall_Prediction/Report0608/Report0608/main.out) (e:/Projects/Rainfall_Prediction/Report0608/Report0608/main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -1574,13 +1570,16 @@ LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
 (Font)              scaled to size 9.03374pt on input line 29.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
 (Font)              scaled to size 9.03374pt on input line 29.
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 10.53937pt on input line 31.
-Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 31.
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 30.
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--40
+
+ []
+
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 15.05624pt on input line 32.
+(Font)              scaled to size 15.05624pt on input line 44.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 15.05624pt on input line 32.
+(Font)              scaled to size 15.05624pt on input line 44.
 (d:/TeXLive/texlive/2019/texmf-dist/tex/generic/ctex/zhwindowsfonts.tex
 File: zhwindowsfonts.tex 2019/05/29 v2.4.16 Windows font map loader for pdfTeX and DVIPDFMx (CTEX)
 ) [1
@@ -1588,97 +1587,319 @@ File: zhwindowsfonts.tex 2019/05/29 v2.4.16 Windows font map loader for pdfTeX a
 ]
 
 LaTeX Font Warning: Font shape `U/stmry/m/n' in size <10.53937> not available
-(Font)              size <10.95> substituted on input line 73.
+(Font)              size <10.95> substituted on input line 85.
 
 
 LaTeX Font Warning: Font shape `U/stmry/b/n' in size <10.53937> not available
-(Font)              size <10.95> substituted on input line 73.
+(Font)              size <10.95> substituted on input line 85.
 
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 12.045pt on input line 97.
+(Font)              scaled to size 12.045pt on input line 109.
+
+Overfull \hbox (13.12512pt too wide) in paragraph at lines 111--112
+\C70/rm/m/n/10.53937/62 Ï \C70/rm/m/n/10.53937/91 Ã \C70/rm/m/n/10.53937/7e ¶ \C70/rm/m/n/10.53937/70 Ì \C70/rm/m/n/10.53937/51 Ö \C70/rm/m/n/10.53937/53 b|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.53937/57 # \C70/rm/m/n/10.53937/4f › \C70/rm/m/n/10.53937/7f W|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.53937/7c s \C70/rm/m/n/10.53937/7e ≥ \C70/rm/m/n/10.53937/65 Ø \C70/rm/m/n/10.53937/54 	 \C70/rm/m/n/10.53937/62 … \C70/rm/m/n/10.53937/65 Ø \C70/rm/m/n/10.53937/5d ﬁ \C70/rm/m/n/10.53937/54 å \C70/rm/m/n/10.53937/57 # √ \C70/rm/m/n/10.53937/65 Ø \C70/rm/m/n/10.53937/76 Æ \C70/rm/m/n/10.53937/91 Ã \C70/rm/m/n/10.53937/56 ˛ \C70/rm/m/n/10.53937/5d ﬁ \C70/rm/m/n/10.53937/7b I|\C70/rm/m/n/10.53937/30 ^^B| \C70/rm/m/n/10.53937/65 p \C70/rm/m/n/10.53937/63 n \C70/rm/m/n/10.53937/66 / \C70/rm/m/n/10.53937/75 1 \C70/rm/m/n/10.53937/7e Ù \C70/rm/m/n/10.53937/84 ( \C70/rm/m/n/10.53937/62 … \C70/rm/m/n/10.53937/81 Í \C70/rm/m/n/10.53937/52 ® \C70/rm/m/n/10.53937/6c ^^T \C70/rm/m/n/10.53937/8c a \C70/rm/m/n/10.53937/7a Ÿ\T1/XCharter-TLF/m/n/10.53937 AWS310\C70/rm/m/n/10.53937/81 Í
+ []
+
+
+Overfull \hbox (1.76361pt too wide) in paragraph at lines 111--112
+\T1/XCharter-TLF/m/n/10.53937 31\C70/rm/m/n/10.53937/4e * \C70/rm/m/n/10.53937/72 y \C70/rm/m/n/10.53937/5f Å|\C70/rm/m/n/10.53937/30 ^^B| \C70/rm/m/n/10.53937/51 v \C70/rm/m/n/10.53937/4e - \C70/rm/m/n/10.53937/67 	 \C70/rm/m/n/10.53937/65 ˆ \C70/rm/m/n/10.53937/95 Ù \C70/rm/m/n/10.53937/57 0 \C70/rm/m/n/10.53937/70 π|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.53937/6c ^^T \C70/rm/m/n/10.53937/8c a \C70/rm/m/n/10.53937/7a Ÿ \C70/rm/m/n/10.53937/7f ^^V \C70/rm/m/n/10.53937/53 ˜ \C70/rm/m/n/10.53937/7b I \C70/rm/m/n/10.53937/4f · \C70/rm/m/n/10.53937/60 o|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.53937/8f ÿ \C70/rm/m/n/10.53937/67 	\T1/XCharter-TLF/m/n/10.53937 17\C70/rm/m/n/10.53937/4e * \C70/rm/m/n/10.53937/6c ^^T \C70/rm/m/n/10.53937/8c a \C70/rm/m/n/10.53937/65 p \C70/rm/m/n/10.53937/63 n \C70/rm/m/n/10.53937/52 ^^F + \C70/rm/m/n/10.53937/4e :\T1/XCharter-TLF/m/n/10.53937 temp-\C70/rm/m/n/10.53937/77 ¨ \C70/rm/m/n/10.53937/65 ˆ \C70/rm/m/n/10.53937/7a z \C70/rm/m/n/10.53937/6c ^^T \C70/rm/m/n/10.53937/6e ) \C70/rm/m/n/10.53937/5e ¶ |\C70/rm/m/n/10.53937/ff ^^H|\C70/rm/m/n/10.53937/64 D
+ []
+
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/sl' will be
-(Font)              scaled to size 10.53937pt on input line 127.
+(Font)              scaled to size 10.53937pt on input line 112.
 [2pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.127 
+l.112 
       ]
-<figures/lstm.png, id=297, 613.29124pt x 433.11812pt>
+<figures/1-1.png, id=371, 162.6075pt x 89.33376pt>
+File: figures/1-1.png Graphic file (type png)
+<use figures/1-1.png>
+Package pdftex.def Info: figures/1-1.png  used on input line 125.
+(pdftex.def)             Requested size: 120.18556pt x 66.0296pt.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 7.52812pt on input line 125.
+<figures/1-2.png, id=373, 156.585pt x 93.34875pt>
+File: figures/1-2.png Graphic file (type png)
+<use figures/1-2.png>
+Package pdftex.def Info: figures/1-2.png  used on input line 132.
+(pdftex.def)             Requested size: 120.18556pt x 71.65085pt.
+<figures/1-3.png, id=374, 159.59625pt x 90.3375pt>
+File: figures/1-3.png Graphic file (type png)
+<use figures/1-3.png>
+Package pdftex.def Info: figures/1-3.png  used on input line 139.
+(pdftex.def)             Requested size: 120.18556pt x 68.03001pt.
+<figures/1-4.png, id=375, 158.5925pt x 94.3525pt>
+File: figures/1-4.png Graphic file (type png)
+<use figures/1-4.png>
+Package pdftex.def Info: figures/1-4.png  used on input line 147.
+(pdftex.def)             Requested size: 120.18556pt x 71.50418pt.
+<figures/1-5.png, id=376, 154.5775pt x 93.34875pt>
+File: figures/1-5.png Graphic file (type png)
+<use figures/1-5.png>
+Package pdftex.def Info: figures/1-5.png  used on input line 154.
+(pdftex.def)             Requested size: 120.18556pt x 72.5824pt.
+<figures/1-6.png, id=377, 158.5925pt x 94.3525pt>
+File: figures/1-6.png Graphic file (type png)
+<use figures/1-6.png>
+Package pdftex.def Info: figures/1-6.png  used on input line 161.
+(pdftex.def)             Requested size: 120.18556pt x 71.50418pt.
+<figures/1-7.png, id=378, 159.59625pt x 92.345pt>
+File: figures/1-7.png Graphic file (type png)
+<use figures/1-7.png>
+Package pdftex.def Info: figures/1-7.png  used on input line 169.
+(pdftex.def)             Requested size: 120.18556pt x 69.54178pt.
+<figures/1-8.png, id=379, 162.6075pt x 95.35625pt>
+File: figures/1-8.png Graphic file (type png)
+<use figures/1-8.png>
+Package pdftex.def Info: figures/1-8.png  used on input line 176.
+(pdftex.def)             Requested size: 120.18556pt x 70.48102pt.
+<figures/1-9.png, id=380, 160.6pt x 91.34125pt>
+File: figures/1-9.png Graphic file (type png)
+<use figures/1-9.png>
+Package pdftex.def Info: figures/1-9.png  used on input line 183.
+(pdftex.def)             Requested size: 120.18556pt x 68.35663pt.
+
+Overfull \hbox (7.16977pt too wide) in paragraph at lines 125--184
+ [][][][][][] 
+ []
+
+
+Overfull \hbox (13.02963pt too wide) in paragraph at lines 125--184
+ [][][][][][] 
+ []
+
+
+Overfull \hbox (13.02963pt too wide) in paragraph at lines 125--184
+ [][][][][][] 
+ []
+
+[3pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.196 
+       <e:/Projects/Rainfall_Prediction/Report0608/Report0608/figures/1-1.png> <e:/Projects/Rainfall_Prediction/Report0608/Report0608/figures/1-2.png> <e:/Projects/Rainfall_Prediction/Report0608/Report0608/figures/1-3.png> <e:/Projects/Rainfall_Prediction/Report0608/Report0608/figures/1-4.png> <e:/Projects/Rainfall_Prediction/Report0608/Report0608/figures/1-5.png> <e:/Projects/Rainfall_Prediction/Report0608/Report0608/figures/1-6.png> <e:/Projects/Rainfall_Prediction/Report0608/Report0608/figures/1-7.png> <e:/Projects/Rainfall_Prediction/Report0608/Report0608/figures/1-8.png> <e:/Projects/Rainfall_Prediction/Report0608/Report0608/figures/1-9.png>]
+Overfull \hbox (2.1114pt too wide) in paragraph at lines 203--204
+[]\C70/rm/m/n/10.53937/6c ^^T \C70/rm/m/n/10.53937/8c a \C70/rm/m/n/10.53937/65 p \C70/rm/m/n/10.53937/63 n \C70/rm/m/n/10.53937/4e - \C70/rm/m/n/10.53937/59 ' \C70/rm/m/n/10.53937/6c ^^T \C70/rm/m/n/10.53937/53 ã|\C70/rm/m/n/10.53937/30 ^^A| \C70/rm/m/n/10.53937/6e ) \C70/rm/m/n/10.53937/5e ¶|\C70/rm/m/n/10.53937/30 ^^A| \C70/rm/m/n/10.53937/6e ^^? \C70/rm/m/n/10.53937/5e ¶ \C70/rm/m/n/10.53937/57 ( \C70/rm/m/n/10.53937/4e ^^@ * \C70/rm/m/n/10.53937/5c ^^O \C70/rm/m/n/10.53937/65 ˆ \C70/rm/m/n/10.53937/51 Ö \C70/rm/m/n/10.53937/57 ˙ \C70/rm/m/n/10.53937/67 , \C70/rm/m/n/10.53937/7a 3 \C70/rm/m/n/10.53937/5b ö|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.53937/62 @ \C70/rm/m/n/10.53937/4e Â \C70/rm/m/n/10.53937/5c ^^F \C70/rm/m/n/10.53937/67 ^^@ \C70/rm/m/n/10.53937/59 ' \C70/rm/m/n/10.53937/50 < \C70/rm/m/n/10.53937/67 ^^@ \C70/rm/m/n/10.53937/5c ^^O \C70/rm/m/n/10.53937/50 < \C70/rm/m/n/10.53937/4e " \C70/rm/m/n/10.53937/5f ^^C|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.53937/53 Í \C70/rm/m/n/10.53937/91 « \C70/rm/m/n/10.53937/75 (\T1/XCharter-TLF/m/n/10.53937 stp|\C70/rm/m/n/10.53937/30 ^^A|
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+XCharter-TLF on input line 235.
+(d:/TeXLive/texlive/2019/texmf-dist/tex/latex/xcharter/TS1XCharter-TLF.fd
+File: TS1XCharter-TLF.fd 2017/06/25 (autoinst) Font definitions for TS1/XCharter-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 10.53937pt on input line 235.
+
+Overfull \hbox (15.15959pt too wide) in paragraph at lines 236--237
+[]\C70/rm/m/n/10.53937/6e ^^? \C70/rm/m/n/10.53937/5e ¶\T1/XCharter-TLF/m/n/10.53937 hmdy|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.53937/96 5 \C70/rm/m/n/10.53937/98 Œ\T1/XCharter-TLF/m/n/10.53937 gust\C70/rm/m/n/10.53937/7b I \C70/rm/m/n/10.53937/4e ^^N \C70/rm/m/n/10.53937/96 M \C70/rm/m/n/10.53937/6c 4 \C70/rm/m/n/10.53937/91 œ\T1/XCharter-TLF/m/n/10.53937 prcp\C70/rm/m/n/10.53937/6b c \C70/rm/m/n/10.53937/76 ¯ \C70/rm/m/n/10.53937/51 s|\C70/rm/m/n/10.53937/ff ^^[| \C70/rm/m/n/10.53937/59 * \C70/rm/m/n/10.53937/96 3 \C70/rm/m/n/10.53937/8f ê \C70/rm/m/n/10.53937/5c ^^D\T1/XCharter-TLF/m/n/10.53937 gbrd|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.53937/6e ) \C70/rm/m/n/10.53937/5e ¶\T1/XCharter-TLF/m/n/10.53937 temp|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.53937/6c ^^T \C70/rm/m/n/10.53937/53 ã\T1/XCharter-TLF/m/n/10.53937 stp\C70/rm/m/n/10.53937/4e ^^N \C70/rm/m/n/10.53937/96 M \C70/rm/m/n/10.53937/6c 4 \C70/rm/m/n/10.53937/91 œ\T1/XCharter-TLF/m/n/10.53937 prcp\C70/rm/m/n/10.53937/8d ^^_
+ []
+
+[4pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.238 \end{itemize}
+                   ]
+<figures/corr.png, id=436, 329.23pt x 600.2425pt>
+File: figures/corr.png Graphic file (type png)
+<use figures/corr.png>
+Package pdftex.def Info: figures/corr.png  used on input line 243.
+(pdftex.def)             Requested size: 182.09486pt x 331.99365pt.
+<figures/time-lag.png, id=438, 676.5275pt x 623.32875pt>
+File: figures/time-lag.png Graphic file (type png)
+<use figures/time-lag.png>
+Package pdftex.def Info: figures/time-lag.png  used on input line 256.
+(pdftex.def)             Requested size: 364.19667pt x 335.56529pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 10.53937pt on input line 265.
+[5pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.273 	\item ‰
+              ∏ç‰ªÖÈ¢ÑÊµãÂá∫Á±ªÂà´ÔºåËøòÂèØÂæóÂà∞Ëøë‰ººÊ¶ÇÁéáÈ¢ÑÊµãÔºåÂõ†Ê≠§... <e:/Projects/Rainfall_Prediction/Report0608/Report0608/figures/corr.png>]
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 10.53937pt on input line 288.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 10.53937pt on input line 288.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 10.53937pt on input line 288.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/sl' will be
+(Font)              scaled to size 10.53937pt on input line 288.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 10.53937pt on input line 288.
+ [6pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.288 ÊîØ
+         ÊåÅÂêëÈáèÊú∫ÁÆóÊ≥ïÂÖ∑ÊúâÂ¶Ç‰∏ã‰ºòÁÇπÔºö <e:/Projects/Rainfall_Prediction/Report0608/Report0608/figures/time-lag.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
+
+ []
+
+[7]
+Overfull \hbox (0.72037pt too wide) in paragraph at lines 342--343
+[]\C70/rm/m/n/10.53937/96 è \C70/rm/m/n/10.53937/67 : \C70/rm/m/n/10.53937/68 Ó \C70/rm/m/n/10.53937/67 ó \C70/rm/m/n/10.53937/66 / \C70/rm/m/n/10.53937/4e ^^@ * \C70/rm/m/n/10.53937/75 ( \C70/rm/m/n/10.53937/96 è \C70/rm/m/n/10.53937/67 : \C70/rm/m/n/10.53937/65 π \C70/rm/m/n/10.53937/5f ^^O \C70/rm/m/n/10.53937/5e ˙ \C70/rm/m/n/10.53937/7a À \C70/rm/m/n/10.53937/76 Ñ|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.53937/53 ^^E \C70/rm/m/n/10.53937/54 + \C70/rm/m/n/10.53937/59 ^^Z \C70/rm/m/n/10.53937/4e * \C70/rm/m/n/10.53937/51 ≥ \C70/rm/m/n/10.53937/7b V \C70/rm/m/n/10.53937/68 ^^Q \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/52 ^^F \C70/rm/m/n/10.53937/7c { \C70/rm/m/n/10.53937/56 h|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.53937/4e _ \C70/rm/m/n/10.53937/5c ^ \C70/rm/m/n/10.53937/4e é \C70/rm/m/n/10.53937/96 ∆ \C70/rm/m/n/10.53937/62 ^^P \C70/rm/m/n/10.53937/5b f \C70/rm/m/n/10.53937/4e ` - \C70/rm/m/n/10.53937/76 Ñ\T1/XCharter-TLF/m/n/10.53937 bagging\C70/rm/m/n/10.53937/7b ó
+ []
+
+
+Overfull \hbox (14.35202pt too wide) in paragraph at lines 352--353
+\C70/rm/m/n/10.53937/5b ˘ \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/5b û \C70/rm/m/n/10.53937/4f ã\T1/XCharter-TLF/m/n/10.53937 (instance)\C70/rm/m/n/10.53937/52 ^^Y \C70/rm/m/n/10.53937/90 ˝ \C70/rm/m/n/10.53937/8d ã \C70/rm/m/n/10.53937/54 ^^Q \C70/rm/m/n/10.53937/4e é\T1/XCharter-TLF/m/n/10.53937 0|\C70/rm/m/n/10.53937/30 ^^B| \C70/rm/m/n/10.53937/8f Ÿ \C70/rm/m/n/10.53937/68 7 \C70/rm/m/n/10.53937/54 ^^N \C70/rm/m/n/10.53937/97 b \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/68 ^^Q \C70/rm/m/n/10.53937/5c 1 \C70/rm/m/n/10.53937/80 ˝ \C70/rm/m/n/10.53937/8d ä \C70/rm/m/n/10.53937/67 e \C70/rm/m/n/10.53937/8d ä \C70/rm/m/n/10.53937/4e ^^S \C70/rm/m/n/10.53937/6c Ë \C70/rm/m/n/10.53937/90 £ \C70/rm/m/n/10.53937/4e õ \C70/rm/m/n/10.53937/52 M \C70/rm/m/n/10.53937/97 b \C70/rm/m/n/10.53937/88 ´ \C70/rm/m/n/10.53937/52 ^^F \C70/rm/m/n/10.53937/95 ^^Y \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/5b û \C70/rm/m/n/10.53937/4f ã\T1/XCharter-TLF/m/n/10.53937 (instance)|\C70/rm/m/n/10.53937/ff ^^[|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--353
+
+ []
+
+
+Overfull \hbox (10.6737pt too wide) in paragraph at lines 359--360
+[]\C70/rm/m/n/10.53937/4e ^^M \C70/rm/m/n/10.53937/59 * \C70/rm/m/n/10.53937/90 ^^B \C70/rm/m/n/10.53937/54 ^^H \C70/rm/m/n/10.53937/9a ÿ \C70/rm/m/n/10.53937/7e Ù \C70/rm/m/n/10.53937/7a ^^@ \C70/rm/m/n/10.53937/75 è \C70/rm/m/n/10.53937/72 y \C70/rm/m/n/10.53937/5f Å|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.53937/59 Ç \C70/rm/m/n/10.53937/67 ú\T1/XCharter-TLF/m/n/10.53937 feature\C70/rm/m/n/10.53937/4e * \C70/rm/m/n/10.53937/65 p \C70/rm/m/n/10.53937/59 * ^^Z|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.53937/6b œ \C70/rm/m/n/10.53937/4e ^^@ \C70/rm/m/n/10.53937/68 ı \C70/rm/m/n/10.53937/56 ﬁ \C70/rm/m/n/10.53937/5f R \C70/rm/m/n/10.53937/68 ^^Q \C70/rm/m/n/10.53937/90 ˝ \C70/rm/m/n/10.53937/89 Å \C70/rm/m/n/10.53937/80 ^^W \C70/rm/m/n/10.53937/8d 9 \C70/rm/m/n/10.53937/59 ' \C70/rm/m/n/10.53937/91 œ \C70/rm/m/n/10.53937/65 ˆ \C70/rm/m/n/10.53937/95 Ù|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.53937/75 ^^Z \C70/rm/m/n/10.53937/81 Û \C70/rm/m/n/10.53937/4e ^^M \C70/rm/m/n/10.53937/59 Ç\T1/XCharter-TLF/m/n/10.53937 SVM|\C70/rm/m/n/10.53937/30 ^^B|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--360
+
+ []
+
+[8]
+<figures/lstm.png, id=505, 613.29124pt x 433.11812pt>
 File: figures/lstm.png Graphic file (type png)
 <use figures/lstm.png>
-Package pdftex.def Info: figures/lstm.png  used on input line 152.
+Package pdftex.def Info: figures/lstm.png  used on input line 417.
 (pdftex.def)             Requested size: 367.97757pt x 259.87288pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3]
-Overfull \hbox (15.40231pt too wide) in paragraph at lines 183--186
+[9]
+Overfull \hbox (31.36852pt too wide) in paragraph at lines 428--431
+\T1/XCharter-TLF/m/n/10.53937 KNN|\C70/rm/m/n/10.53937/30 ^^A| \T1/XCharter-TLF/m/n/10.53937 RF|\C70/rm/m/n/10.53937/30 ^^A| \T1/XCharter-TLF/m/n/10.53937 MLP\C70/rm/m/n/10.53937/75 ^^_ \C70/rm/m/n/10.53937/62 ^^P \C70/rm/m/n/10.53937/7e ƒ \C70/rm/m/n/10.53937/54 ^^H \C70/rm/m/n/10.53937/6a ! \C70/rm/m/n/10.53937/57 ã|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.53937/52 ^^F + \C70/rm/m/n/10.53937/91 « \C70/rm/m/n/10.53937/75 ( \C70/rm/m/n/10.53937/59 ^^Z \C70/rm/m/n/10.53937/65 p \C70/rm/m/n/10.53937/88 h \C70/rm/m/n/10.53937/51 ≥\T1/XCharter-TLF/m/n/10.53937 (hard)\C70/rm/m/n/10.53937/54 å \C70/rm/m/n/10.53937/5e s \C70/rm/m/n/10.53937/57 G \C70/rm/m/n/10.53937/98 Ñ \C70/rm/m/n/10.53937/6d K \C70/rm/m/n/10.53937/69 Ç \C70/rm/m/n/10.53937/73 á\T1/XCharter-TLF/m/n/10.53937 (soft)\C70/rm/m/n/10.53937/4e $ \C70/rm/m/n/10.53937/79 Õ \C70/rm/m/n/10.53937/65 π \C70/rm/m/n/10.53937/6c ’ \C70/rm/m/n/10.53937/5b û \C70/rm/m/n/10.53937/73 ∞|\C70/rm/m/n/10.53937/30 ^^B| \C70/rm/m/n/10.53937/75 (\T1/XCharter-TLF/m/n/10.53937 sklearn\C70/rm/m/n/10.53937/53 ^^E
+ []
+
+[10pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.442 
+       <e:/Projects/Rainfall_Prediction/Report0608/Report0608/figures/lstm.png>]
+Overfull \hbox (15.40231pt too wide) in paragraph at lines 451--454
 \C70/rm/m/n/10.53937/65 p \C70/rm/m/n/10.53937/63 n \C70/rm/m/n/10.53937/4e - \C70/rm/m/n/10.53937/96 M Ë \C70/rm/m/n/10.53937/91 œ \C70/rm/m/n/10.53937/7c { \C70/rm/m/n/10.53937/52 + \C70/rm/m/n/10.53937/4e :\T1/XCharter-TLF/m/n/10.53937 0\C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/65 p \C70/rm/m/n/10.53937/63 n \C70/rm/m/n/10.53937/53 `\T1/XCharter-TLF/m/n/10.53937 90%\C70/rm/m/n/10.53937/5d Ê \C70/rm/m/n/10.53937/53 Û|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.53937/53 s \C70/rm/m/n/10.53937/4f ^^? \C70/rm/m/n/10.53937/6a ! \C70/rm/m/n/10.53937/57 ã \C70/rm/m/n/10.53937/7e Ÿ \C70/rm/m/n/10.53937/51 ˙ h\T1/XCharter-TLF/m/n/10.53937 0\C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/7e ” \C70/rm/m/n/10.53937/67 ú \C70/rm/m/n/10.53937/4e _ \C70/rm/m/n/10.53937/53 Ô \C70/rm/m/n/10.53937/4e Â \C70/rm/m/n/10.53937/5f ó \C70/rm/m/n/10.53937/52 0 \C70/rm/m/n/10.53937/6b ‘ \C70/rm/m/n/10.53937/8f É \C70/rm/m/n/10.53937/9a ÿ \C70/rm/m/n/10.53937/76 Ñ\T1/XCharter-TLF/m/n/10.53937 accuracy|\C70/rm/m/n/10.53937/30 ^^B|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--186
+Underfull \hbox (badness 10000) in paragraph at lines 451--454
 
  []
 
-[4pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.186     \item Á
-                 ≤æÁ°ÆÁéá(precision)Ôºö‰∫åÂàÜÁ±ªÈóÆÈ¢ò‰∏≠ÔºåË¢´ÂÖ≥Ê≥®ÁöÑÁ±ªÁ... <e:/Projects/Rainfall_Prediction/Report/figures/lstm.png>]
-Overfull \hbox (33.48622pt too wide) in paragraph at lines 208--223
+Overfull \hbox (24.86539pt too wide) in paragraph at lines 470--471
+\C70/rm/m/n/10.53937/7c { \C70/rm/m/n/10.53937/56 h \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/60 ' \C70/rm/m/n/10.53937/80 ˝ \C70/rm/m/n/10.53937/57 G \C70/rm/m/n/10.53937/5d Ú \C70/rm/m/n/10.53937/8f æ \C70/rm/m/n/10.53937/52 0 \C70/rm/m/n/10.53937/6b ‘ \C70/rm/m/n/10.53937/8f É \C70/rm/m/n/10.53937/4f ^^X \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/60 ≈ \C70/rm/m/n/10.53937/51 µ|\C70/rm/m/n/10.53937/30 ^^B| \C70/rm/m/n/10.53937/53 Ê \C70/rm/m/n/10.53937/59 ^^V|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.53937/57 (\T1/XCharter-TLF/m/n/10.53937 accuracy|\C70/rm/m/n/10.53937/ff ^^L| \T1/XCharter-TLF/m/n/10.53937 precision|\C70/rm/m/n/10.53937/ff ^^L| \T1/XCharter-TLF/m/n/10.53937 recall|\C70/rm/m/n/10.53937/ff ^^L| \T1/XCharter-TLF/m/n/10.53937 fscore\C70/rm/m/n/10.53937/91 Ã|\C70/rm/m/n/10.53937/ff ^^L| \T1/XCharter-TLF/m/n/10.53937 precision\C70/rm/m/n/10.53937/54 å\T1/XCharter-TLF/m/n/10.53937 fscore\C70/rm/m/n/10.53937/65 p
+ []
+
+[11]
+Overfull \hbox (32.55867pt too wide) in paragraph at lines 478--493
  [][] 
  []
 
 
-Overfull \hbox (60.9939pt too wide) in paragraph at lines 237--244
+Overfull \hbox (60.9939pt too wide) in paragraph at lines 508--516
  [][] 
  []
 
-[5pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
+
+Overfull \hbox (7.67635pt too wide) in paragraph at lines 519--522
+\C70/rm/m/n/10.53937/5b ˘ \C70/rm/m/n/10.53937/4e é \C70/rm/m/n/10.53937/51 v \C70/rm/m/n/10.53937/4e ÷ \C70/rm/m/n/10.53937/7c { \C70/rm/m/n/10.53937/52 + \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/68 7 \C70/rm/m/n/10.53937/67 , \C70/rm/m/n/10.53937/51 ‡ \C70/rm/m/n/10.53937/4e N \C70/rm/m/n/10.53937/6c ° \C70/rm/m/n/10.53937/67 	 \C70/rm/m/n/10.53937/98 Ñ \C70/rm/m/n/10.53937/6d K \C70/rm/m/n/10.53937/80 ˝ \C70/rm/m/n/10.53937/52 õ|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.53937/7c æ \C70/rm/m/n/10.53937/78 n \C70/rm/m/n/10.53937/73 á \C70/rm/m/n/10.53937/54 å \C70/rm/m/n/10.53937/53 Ï \C70/rm/m/n/10.53937/56 ﬁ \C70/rm/m/n/10.53937/73 á \C70/rm/m/n/10.53937/90 ˝ \C70/rm/m/n/10.53937/4e :\T1/XCharter-TLF/m/n/10.53937 0|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.53937/65 E \C70/rm/m/n/10.53937/6b d \C70/rm/m/n/10.53937/59 ^^D \C70/rm/m/n/10.53937/4e ^^M \C70/rm/m/n/10.53937/51 ç \C70/rm/m/n/10.53937/7e Ÿ \C70/rm/m/n/10.53937/51 ˙ \C70/rm/m/n/10.53937/53 U \C70/rm/m/n/10.53937/72 Ï \C70/rm/m/n/10.53937/75 ( \C70/rm/m/n/10.53937/59 ^^Z \C70/rm/m/n/10.53937/4e *\T1/XCharter-TLF/m/n/10.53937 LSTM\C70/rm/m/n/10.53937/7e ƒ
+ []
+
+[12pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.251 
-      ] [6pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
+l.531 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.286 
+l.531 
       ]
-Overfull \hbox (17.38606pt too wide) in paragraph at lines 337--344
+Overfull \hbox (47.0404pt too wide) in paragraph at lines 556--559
+\C70/rm/m/n/10.53937/80 ^^L\T1/XCharter-TLF/m/n/10.53937 SVM\C70/rm/m/n/10.53937/54 å\T1/XCharter-TLF/m/n/10.53937 DT\C70/rm/m/n/10.53937/52 ^^Y \C70/rm/m/n/10.53937/67 	 \C70/rm/m/n/10.53937/8f É \C70/rm/m/n/10.53937/59 ' \C70/rm/m/n/10.53937/53 ÿ ^^V|\C70/rm/m/n/10.53937/30 ^^B| \T1/XCharter-TLF/m/n/10.53937 SVM\C70/rm/m/n/10.53937/58 û \C70/rm/m/n/10.53937/52 † \C70/rm/m/n/10.53937/4e Ü \C70/rm/m/n/10.53937/68 7 \C70/rm/m/n/10.53937/67 , C \C70/rm/m/n/10.53937/91 Õ \C70/rm/m/n/10.53937/54 ^^N|\C70/rm/m/n/10.53937/ff ^^L| \T1/XCharter-TLF/m/n/10.53937 accuracy\C70/rm/m/n/10.53937/59 ' \C70/rm/m/n/10.53937/5e E \C70/rm/m/n/10.53937/96 M \C70/rm/m/n/10.53937/4f N|\C70/rm/m/n/10.53937/ff ^^L| \T1/XCharter-TLF/m/n/10.53937 precision\C70/rm/m/n/10.53937/7a ^^M \C70/rm/m/n/10.53937/67 	 \C70/rm/m/n/10.53937/4e 
+ \C70/rm/m/n/10.53937/53 G|\C70/rm/m/n/10.53937/ff ^^L| \T1/XCharter-TLF/m/n/10.53937 recall\C70/rm/m/n/10.53937/54 å\T1/XCharter-TLF/m/n/10.53937 fscore\C70/rm/m/n/10.53937/57 G
+ []
+
+[13] [14pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.633 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.633 
+      ]
+Overfull \hbox (17.38606pt too wide) in paragraph at lines 671--678
 \C70/rm/m/n/10.53937/5c ^^F$\OML/cmm/m/it/10.53937 T \OMS/cmsy/m/n/10.53937 ^^B \OML/cmm/m/it/10.53937 P$\C70/rm/m/n/10.53937/68 < \C70/rm/m/n/10.53937/5f ^^O \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/4e å \C70/rm/m/n/10.53937/7e Ù \C70/rm/m/n/10.53937/77 È \C70/rm/m/n/10.53937/96 5 \C70/rm/m/n/10.53937/5c U \C70/rm/m/n/10.53937/5f ^^@ \C70/rm/m/n/10.53937/4e : ^^@ \C70/rm/m/n/10.53937/7e Ù \C70/rm/m/n/10.53937/54 ^^Q \C70/rm/m/n/10.53937/91 œ|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.53937/63 	 \C70/rm/m/n/10.53937/71 g \C70/rm/m/n/10.53937/65 ˆ \C70/rm/m/n/10.53937/95 Ù \C70/rm/m/n/10.53937/98 z \C70/rm/m/n/10.53937/5e è \C70/rm/m/n/10.53937/5c ^^F$\OML/cmm/m/it/10.53937 T$\C70/rm/m/n/10.53937/4e * \C70/rm/m/n/10.53937/65 ˆ \C70/rm/m/n/10.53937/52 ; \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/72 y \C70/rm/m/n/10.53937/5f Å \C70/rm/m/n/10.53937/54 ^^Q \C70/rm/m/n/10.53937/91 œ \C70/rm/m/n/10.53937/4f ù \C70/rm/m/n/10.53937/6b ! \C70/rm/m/n/10.53937/8f ì \C70/rm/m/n/10.53937/51 e \C70/rm/m/n/10.53937/52 0\T1/XCharter-TLF/m/n/10.53937 LSTM\C70/rm/m/n/10.53937/7f Q
  []
 
-[7pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has been already used, duplicate ignored
+[15pdfTeX warning (ext4): destination with the same identifier (name{table.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.344 \end{enumerate}
+l.678 \end{enumerate}
                      ]
-Overfull \hbox (14.12637pt too wide) in paragraph at lines 364--367
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 10.53937pt on input line 730.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 10.53937pt on input line 730.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 10.53937pt on input line 730.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/sl' will be
+(Font)              scaled to size 10.53937pt on input line 730.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 10.53937pt on input line 730.
+ [16pdfTeX warning (ext4): destination with the same identifier (name{table.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.730 Á±ª
+         Âà´‰∏çÂùáË°°Â∏¶Êù•ÁöÑÂàÜÁ±ªÂô®Âú®‰∏çÂêåÁ±ªÂà´‰∏äË°®Áé∞ÂÖ∑ÊúâÂ∑®Â§ßÂ...]
+Overfull \hbox (14.12637pt too wide) in paragraph at lines 730--733
 \C70/rm/m/n/10.53937/4e Ü \C70/rm/m/n/10.53937/57 ( \C70/rm/m/n/10.53937/6c ^^T \C70/rm/m/n/10.53937/8c a \C70/rm/m/n/10.53937/7a Ÿ\T1/XCharter-TLF/m/n/10.53937 373\C70/rm/m/n/10.53937/4e 
  \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/6a ! \C70/rm/m/n/10.53937/57 ã|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.53937/51 v \C70/rm/m/n/10.53937/4e ÷ \C70/rm/m/n/10.53937/6c ^^T \C70/rm/m/n/10.53937/8c a \C70/rm/m/n/10.53937/7a Ÿ \C70/rm/m/n/10.53937/76 Ñ\T1/XCharter-TLF/m/n/10.53937 LSTM\C70/rm/m/n/10.53937/6a ! \C70/rm/m/n/10.53937/57 ã ( \C70/rm/m/n/10.53937/6d K \C70/rm/m/n/10.53937/8b ’ \C70/rm/m/n/10.53937/96 ∆ \C70/rm/m/n/10.53937/4e 
  - \C70/rm/m/n/10.53937/65 ‡ \C70/rm/m/n/10.53937/96 Ë \C70/rm/m/n/10.53937/7c { \C70/rm/m/n/10.53937/52 + \C70/rm/m/n/10.53937/4e 
  \C70/rm/m/n/10.53937/76 Ñ\T1/XCharter-TLF/m/n/10.53937 f1-score\C70/rm/m/n/10.53937/57 G \C70/rm/m/n/10.53937/53 Ô \C70/rm/m/n/10.53937/8f æ \C70/rm/m/n/10.53937/52 0\T1/XCharter-TLF/m/n/10.53937 0.95\C70/rm/m/n/10.53937/53  
  []
 
-[8pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has been already used, duplicate ignored
+
+LaTeX Warning: Citation `big8' on page 17 undefined on input line 756.
+
+[17pdfTeX warning (ext4): destination with the same identifier (name{table.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.402 	\bibitem{bit2}
-                      Yuxuan Liang, Songyu Ke, Junbo Zhang, Xiuwen Yi, Yu Zh...] [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 413.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 413.
- (e:/Projects/Rainfall_Prediction/Report/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 413.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 413.
+l.779 \begin{itemize}
+                     ]
+Underfull \hbox (badness 10000) in paragraph at lines 796--797
+[]\T1/XCharter-TLF/m/n/10.53937 Hourly weather sur-face, Kag-gle. [][]$\T1/cmtt/m/n/10.53937 https : / / www . kaggle . com / PROPPG-[]PPG /
+ []
+
+[18]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 802.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 802.
+ (e:/Projects/Rainfall_Prediction/Report0608/Report0608/main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 802.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 802.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 35A88B64F11A25ED046735691E2742CA;2818.
+(rerunfilecheck)             Checksum: 4B27FD5492F4DC403F10F7BFB5865D6B;5169.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1688,22 +1909,22 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 32914 strings out of 481242
- 576538 string characters out of 5917983
- 825181 words of memory out of 5000000
- 47101 multiletter control sequences out of 15000+600000
- 653656 words of font info for 254 fonts, out of 8000000 for 9000
+ 33831 strings out of 481242
+ 590918 string characters out of 5917983
+ 827841 words of memory out of 5000000
+ 47760 multiletter control sequences out of 15000+600000
+ 694007 words of font info for 380 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,11n,74p,982b,615s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc>{d:/TeXLive/texlive/2019/texmf-dist/fonts/enc/dvips/xcharter/xch_uy5hgr.enc}<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf>{d:/TeXLive/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><d:/TeXLive/texlive/2019/texmf-dist/fonts/type1/public/xcharter/XCharter-Bold.pfb><d:/TeXLive/texlive/2019/texmf-dist/fonts/type1/public/xcharter/XCharter-Roman.pfb><d:/TeXLive/texlive/2019/texmf-dist/fonts/type1/public/xcharter/XCharter-Slanted.pfb><d:/TeXLive/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/TeXLive/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/TeXLive/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/TeXLive/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/TeXLive/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/TeXLive/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><d:/TeXLive/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on e:/Projects/Rainfall_Prediction/Report/main.pdf (9 pages, 797751 bytes).
+ 76i,12n,74p,1274b,625s stack positions out of 5000i,500n,10000p,200000b,80000s
+{d:/TeXLive/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc>{d:/TeXLive/texlive/2019/texmf-dist/fonts/enc/dvips/xcharter/xch_q7u3cc.enc}<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc>{d:/TeXLive/texlive/2019/texmf-dist/fonts/enc/dvips/xcharter/xch_uy5hgr.enc}<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><d:/TeXLive/texlive/2019/texmf-dist/fonts/type1/public/xcharter/XCharter-Bold.pfb><d:/TeXLive/texlive/2019/texmf-dist/fonts/type1/public/xcharter/XCharter-Roman.pfb><d:/TeXLive/texlive/2019/texmf-dist/fonts/type1/public/xcharter/XCharter-Slanted.pfb><d:/TeXLive/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/TeXLive/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/TeXLive/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/TeXLive/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/TeXLive/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/TeXLive/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><d:/TeXLive/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on e:/Projects/Rainfall_Prediction/Report0608/Report0608/main.pdf (18 pages, 1080222 bytes).
 PDF statistics:
- 825 PDF objects out of 1000 (max. 8388607)
- 601 compressed objects within 7 object streams
- 61 named destinations out of 1000 (max. 500000)
- 514 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1153 PDF objects out of 1200 (max. 8388607)
+ 869 compressed objects within 9 object streams
+ 146 named destinations out of 1000 (max. 500000)
+ 737 words of extra memory for PDF output out of 10000 (max. 10000000)
 

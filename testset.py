@@ -7,8 +7,8 @@ import pandas as pd
 
 def main():
     paths = ['station_371_clean.csv','station_372_clean.csv', 'station_373_clean.csv', 'station_374_clean.csv', 'station_375_clean.csv']
-    if not os.path.exists('test'):
-        os.makedirs('test')
+    if not os.path.exists('testset'):
+        os.makedirs('testset')
 
     for i in range(5):
         path = paths[i]
@@ -18,7 +18,7 @@ def main():
     
         test = data.iloc[n_test: ]
         print(test.shape)
-        test.to_csv('./test/station'+str(i+1)+'.csv')
+        test.to_csv('./testset/station'+str(i+1)+'.csv')
 
 if __name__ == '__main__':
     main()  
